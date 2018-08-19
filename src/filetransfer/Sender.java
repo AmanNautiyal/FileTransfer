@@ -142,7 +142,7 @@ public class Sender extends javax.swing.JFrame {
         int x = fc.showOpenDialog(this);
         System.out.println("Flag 3");
         if (x == JFileChooser.APPROVE_OPTION) {
-            file = fc.getSelectedFile();fc.
+            file = fc.getSelectedFile();
             fileStatus.setText(file.getAbsolutePath());
             fileSet = true;
             System.out.println("Flag 4");
